@@ -5,7 +5,7 @@
 #define PRODUCT_NAME "PyCubedMini"
 #define VOLUME_LABEL "PYCUBEDBOOT"
 #define INDEX_URL "https://pycubed.org"
-#define BOARD_ID "PyCubedMini_J19"
+#define BOARD_ID "PyCubedMini_J20"
 
 #define USB_VID 0x04D8
 #define USB_PID 0xEDBE // PID sublicensed from Microchip
@@ -16,10 +16,10 @@
 #define BOOT_USART_MODULE                 SERCOM0
 #define BOOT_USART_MASK                   APBAMASK
 #define BOOT_USART_BUS_CLOCK_INDEX        MCLK_APBAMASK_SERCOM0
-#define BOOT_USART_PAD_SETTINGS           UART_RX_PAD3_TX_PAD0
-#define BOOT_USART_PAD3                   PINMUX_PA07D_SERCOM0_PAD3
+#define BOOT_USART_PAD_SETTINGS           UART_RX_PAD1_TX_PAD0
+#define BOOT_USART_PAD3                   PINMUX_UNUSED
 #define BOOT_USART_PAD2                   PINMUX_UNUSED
-#define BOOT_USART_PAD1                   PINMUX_UNUSED
+#define BOOT_USART_PAD1                   PINMUX_PA05D_SERCOM0_PAD1
 #define BOOT_USART_PAD0                   PINMUX_PA04D_SERCOM0_PAD0
 #define BOOT_GCLK_ID_CORE                 SERCOM0_GCLK_ID_CORE
 #define BOOT_GCLK_ID_SLOW                 SERCOM0_GCLK_ID_SLOW
